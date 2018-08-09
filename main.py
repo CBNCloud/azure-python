@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def layout():
-  return render_template('layout.html')
+  return "Welcome to CBN Cloud Workshop!"
   
 if __name__ == '__main__':
   app.run(debug=True)
